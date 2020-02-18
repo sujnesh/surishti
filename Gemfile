@@ -57,3 +57,5 @@ gem 'bootstrap-sass'
 gem 'devise'
 
 gem 'bootstrap_form'
+
+gem 'faker'
