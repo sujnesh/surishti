@@ -23,10 +23,10 @@ class PostsController < ApplicationController
 
   def get_posts
     PostsForBranchService.new({
-        search: params[:search],
-        category: params[:category],
-        branch: params[:action]
-      }).call
+      search: params[:search],
+      category: params[:category],
+      branch: params[:action]
+    }).call
   end
 
    def hobby
