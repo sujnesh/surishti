@@ -11,15 +11,15 @@ def seed_categories
   sujnesh = ['Kalka', 'Gurgaon', 'Bangalore', 'Mumbai', 'Goa']
   us = ['Nainital', 'Gurgaon', 'Pantnagar']
 
-  hobby.each do |name|
+  srishti.each do |name|
     Category.create(branch: 'srishti', name: name)
   end
 
-  study.each do |name|
+  sujnesh.each do |name|
     Category.create(branch: 'sujnesh', name: name)
   end
 
-  team.each do |name|
+  us.each do |name|
     Category.create(branch: 'us', name: name)
   end
 end
