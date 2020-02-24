@@ -7,11 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 def seed_categories
-  srishti = ['Arts', 'Crafts', 'Sports', 'Sciences', 'Collecting', 'Reading', 'Other']
-  sujnesh = ['Arts and Humanities', 'Physical Science and Engineering', 'Math and Logic',
-          'Computer Science', 'Data Science', 'Economics and Finance', 'Business',
-          'Social Sciences', 'Language', 'Other']
-  us = ['Study', 'Development', 'Arts and Hobby', 'Other']
+  srishti = ['Pantnagar', 'Lucknow', 'Gurgaon', 'Delhi', 'Ukulele', 'Andaman & Nicobar', 'Shimla', 'Manali', 'Nainital']
+  sujnesh = ['Kalka', 'Gurgaon', 'Bangalore', 'Mumbai', 'Goa']
+  us = ['Nainital', 'Gurgaon', 'Pantnagar']
 
   hobby.each do |name|
     Category.create(branch: 'srishti', name: name)
